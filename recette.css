@@ -1,0 +1,145 @@
+*{
+   overflow:auto;
+}
+body{
+    background-color: #8BA1BB;
+    font-family: "Arial", system-ui;
+}
+
+div.centre{
+    text-align: center;
+}
+div.categorie{
+    margin-top: 80px;
+    margin-bottom: -20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+P.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+  
+   
+}
+.contenu{
+    background-color: white;
+    margin: 0px 10% 50px 10%;
+    padding: 10px 10% 80px 10%;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.2);
+  
+}
+h1{
+    text-align: center; 
+}
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin: 0px auto 
+}
+
+P.description{
+    text-align: center;
+    max-width: 600px;
+     display: inline-block;
+}
+.info{
+  position: relative;
+}
+.info img{
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    min-width:200px;
+    background-color: lightgray;
+   
+}
+.info table{
+    border:1px ;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color:white;
+    padding: 10px 0px;
+    font-size: 16px;
+    background-color: #6c829d;
+    opacity: 80%;
+   
+}
+
+.info table td{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+  
+   
+}
+.info table th{
+    text-align: center;
+    font-size: 16px; 
+    vertical-align: top;
+}
+.colonne{
+ width: 45%;
+ margin-top: 20px;
+}
+.colonne h2{
+    text-align: center;
+    border-bottom: #6c829d solid 6px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+.colonne2{
+    float: right;
+}
+.ingredients p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #6c829d;
+    padding: 8px 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.numero{
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:0px;
+}
+.preparation td{
+    vertical-align: top;
+}
+.preparation_etape{
+    text-align: justify;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}  
+.preparation tr{
+   height: 40px;
+} 
+
+
+  
+  
